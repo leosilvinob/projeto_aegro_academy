@@ -1,0 +1,1 @@
+EXPLAIN ANALYSE SELECT COUNT(t_tweet.id) AS Total_tweets, t_tweet.created_at FROM t_tweet GROUP BY t_tweet.created_at ORDER BY t_tweet.created_at ASC;

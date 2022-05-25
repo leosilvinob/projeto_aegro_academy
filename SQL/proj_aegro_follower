@@ -1,0 +1,2 @@
+--SELECT t_user.id, t_hashtag.id_tweet FROM t_user, t_hashtag WHERE 
+SELECT t_user.id, t_user.screen_name,t_user.followers_count FROM t_user ORDER BY t_user.followers_count DESC LIMIT 3;
