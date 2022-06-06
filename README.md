@@ -4,7 +4,7 @@ Project with the purpose of creating a data pipeline that acquires data from Twi
 
 ## Description
 
-The pipeline acquires data from Twiiter's open API, via a given hashtag, search date and number of tweets.
+The pipeline acquires data from Twitter's open API, via a given hashtag, search date and number of tweets.
 
 The database to be used is PostgreSQL, a relational database. The data modeling follows below:
 ![Modelagem_dados](https://user-images.githubusercontent.com/78217387/172247521-1174e345-4ce9-4f20-b07a-643456f576c0.png)
@@ -38,7 +38,8 @@ All these steps are performed daily, once a day, that is, the schedule in airflo
 * Unzip the file.
 * Put the "airflow" folder inside the directory where your "dags" folder of your airflow is.
 * Create a postgreSQL database for the project.
-* Create or edit(if it already exists" an airflow connection with the name "postgres_default" connecting to the database you created earlier for the project.
+* Create or edit(if it already exists) an airflow connection with the name "postgres_default" connecting to the database you created previously for the project.
+* Create four variables in Airflow with your API Twitter credentials: "access_key","access_secret","consumer_key" and "consumer_secret".
 
 ### Executing program
 
