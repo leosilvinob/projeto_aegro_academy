@@ -1,1 +1,0 @@
-SELECT COUNT(t_hashtag.id_tweet) AS Total_tweets, t_hashtag.hashtag FROM t_hashtag GROUP BY t_hashtag.hashtag;
