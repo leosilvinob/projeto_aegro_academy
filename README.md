@@ -45,8 +45,8 @@ All these steps are performed daily, once a day, that is, the schedule in airflo
 * Run the airflow webserver by your terminal: airflow webserver
 * Run the airflow schedulerby your terminal: airflow scheduler
 * Acess the airflow webserver, open your browser and acess(by default, it changes depending on how it was installed):http://localhost:8080/
-* Go to "main_project"
-* Start the dag
+* Go to "main_project".
+* Start the dag.
 
 ## Authors
 
