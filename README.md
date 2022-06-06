@@ -50,7 +50,7 @@ All these steps are performed daily, once a day, that is, the schedule in airflo
 
 ## Authors
 
-Contributors names and contact info
+Contributors names and contact info:
 
-Author Name: Leonardo Silvibo 
-Author Linkedin: https://www.linkedin.com/in/leonardo-silvino/
+*Author Name: Leonardo Silvino 
+*Author Linkedin: https://www.linkedin.com/in/leonardo-silvino/
