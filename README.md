@@ -36,7 +36,7 @@ All these steps are performed daily, once a day, that is, the schedule in airflo
 ### Installing
 
 * Unzip the file.
-* Put the "airflow" folder inside the directory where your "dags" folder of your airflow is.
+* Put the archives inside the folder "airflow" in the same directory as your "dags" folder of your airflow is.
 * Create a postgreSQL database for the project.
 * Create or edit(if it already exists) an airflow connection with the name "postgres_default" connecting to the database you created previously for the project.
 * Create four variables in Airflow with your API Twitter credentials: "access_key","access_secret","consumer_key" and "consumer_secret".
